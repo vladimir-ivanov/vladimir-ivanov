@@ -1,5 +1,8 @@
 # I review AI systems + codebases for architecture risks
 
+👉 Typical review time: 24–72 hours  
+👉 Delivered as structured written report  
+
 I help developers and small teams find structural problems in AI-enabled systems — before they become scaling or maintenance issues.
 
 ---
