@@ -1,6 +1,6 @@
-# ⚠️ AI System Architecture Audit
+# AI System Architecture Audit
 
-I review AI-enabled systems, agent workflows, and backend architectures to find **structural risks before they become scaling or maintenance problems**.
+I review AI-enabled systems, SaaS backends, and complex service architectures to identify **structural risks before they become scaling or maintenance problems**.
 
 ⏱️ Delivery: 24–72 hours  
 📄 Output: Structured engineering report  
@@ -12,11 +12,11 @@ I review AI-enabled systems, agent workflows, and backend architectures to find 
 
 This is for you if:
 
-- your AI system is growing fast but feels harder to manage
+- your AI system or backend is growing fast but becoming harder to manage
 - agent behaviour is inconsistent or unpredictable
-- you’re adding features but complexity keeps increasing
-- nobody fully understands the entire system anymore
-- you suspect architecture, not code, is the real problem
+- your SaaS backend is starting to feel complex or fragile
+- you’re adding features but system complexity keeps increasing
+- nobody fully understands the entire architecture anymore
 
 ---
 
@@ -24,17 +24,19 @@ This is for you if:
 
 Most systems I review show patterns like:
 
-- duplicated logic across services or agents
-- unclear boundaries between AI, tools, and backend
-- fragile orchestration flows
-- hidden dependency chains
-- scaling issues caused by structure, not performance
+- unclear system boundaries between services, modules, or agents
+- duplicated logic across backend and AI layers
+- fragile orchestration flows or hidden dependencies
+- scaling issues caused by structure, not infrastructure
+- growing complexity no one fully understands anymore
 
 If this sounds familiar, you're in the right place.
 
 ---
 
 ## 🏗 What I review
+
+Works across AI systems, SaaS backends, and complex service architectures.
 
 ### System architecture
 - service boundaries and coupling
@@ -81,10 +83,10 @@ A simplified version of what your system should evolve into
 
 In real reviews, I often find:
 
-- 30–60% logic duplication across services or agents
+- 30–60% logic duplication across services, modules, or agents
 - AI “bad behaviour” caused by architecture, not prompts
-- tool orchestration bugs mistaken for model issues
-- scaling issues caused by structure, not infrastructure
+- tool orchestration issues mistaken for model issues
+- scaling problems caused by structure, not infrastructure
 
 ---
 
@@ -92,7 +94,7 @@ In real reviews, I often find:
 
 - **£99** — Quick Architecture Snapshot  
 - **£250** — Full System Review (most common)  
-- **£500+** — Deep Architecture + AI Scaling Plan  
+- **£500+** — Deep AI + System Architecture Plan  
 
 ---
 
