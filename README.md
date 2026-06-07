@@ -1,65 +1,126 @@
-# I review AI systems + codebases for architecture risks
+# ⚠️ AI System Architecture Audit
 
-👉 Typical review time: 24–72 hours  
-👉 Delivered as structured written report  
+I review AI-enabled systems, agent workflows, and backend architectures to find **structural risks before they become scaling or maintenance problems**.
 
-I help developers and small teams find structural problems in AI-enabled systems — before they become scaling or maintenance issues.
+⏱️ Delivery: 24–72 hours  
+📄 Output: Structured engineering report  
+🎯 Focus: real systems, real bottlenecks, real failure points
 
 ---
 
-## What I do (fast review)
+## 🧠 Who this is for
 
-I review your system for:
+This is for you if:
 
-### 🏗 Architecture risks
-- broken or unclear system boundaries
-- tightly coupled services/modules
+- your AI system is growing fast but feels harder to manage
+- agent behaviour is inconsistent or unpredictable
+- you’re adding features but complexity keeps increasing
+- nobody fully understands the entire system anymore
+- you suspect architecture, not code, is the real problem
+
+---
+
+## 🚨 Common symptoms I find
+
+Most systems I review show patterns like:
+
+- duplicated logic across services or agents
+- unclear boundaries between AI, tools, and backend
+- fragile orchestration flows
+- hidden dependency chains
+- scaling issues caused by structure, not performance
+
+If this sounds familiar, you're in the right place.
+
+---
+
+## 🏗 What I review
+
+### System architecture
+- service boundaries and coupling
+- hidden dependencies between modules
 - scaling bottlenecks in design
+- unnecessary complexity layers
 
-### 🤖 AI agents / plugins / skills
-- messy or duplicated agent logic
-- weak tool orchestration design
-- prompt + tool architecture issues
-- unreliable agent behaviour patterns
+### 🤖 AI agents & tool orchestration
+- multi-agent design issues
+- tool calling structure and duplication
+- unreliable reasoning flows
+- prompt + system coupling problems
 
-### 💻 Critical code paths
-- core business logic flows only
+### 💻 Critical execution paths
+- core business logic flows
 - integration points between systems
-- hidden complexity and maintainability risks
+- failure propagation paths
+- maintainability risks under growth
 
 ---
 
-## What you get
+## 📦 What you get
 
-A structured report that includes:
+A structured engineering report:
 
-- 🚨 key issues ranked by severity (P0 / P1 / P2)
-- 🧠 explanation of why they matter (not just “what’s wrong”)
-- 🛠 prioritized fix plan (what to do first)
-- 🔁 optional system redesign suggestions
+### 🚨 1. Risk breakdown (P0 / P1 / P2)
+Ranked by real-world impact:
+- scalability risk
+- reliability risk
+- maintainability risk
 
----
+### 🧠 2. Root cause analysis
+Why the system ended up this way (not just symptoms)
 
-## Pricing
+### 🛠 3. Fix plan (prioritised)
+What to fix first to reduce risk fastest
 
-- £99 — Quick Architecture Snapshot
-- £250 — Full System Review (most common)
-- £500+ — Deep Architecture + AI System Evolution Plan
-
----
-
-## Who this is for
-
-- indie SaaS founders
-- developers building AI tools / agents
-- small teams scaling fast
-- systems that feel “messy but working”
+### 🔁 4. Target architecture direction
+A simplified version of what your system should evolve into
 
 ---
 
-## Why this matters
+## 💡 Typical findings
+
+In real reviews, I often find:
+
+- 30–60% logic duplication across services or agents
+- AI “bad behaviour” caused by architecture, not prompts
+- tool orchestration bugs mistaken for model issues
+- scaling issues caused by structure, not infrastructure
+
+---
+
+## 💰 Pricing
+
+- **£99** — Quick Architecture Snapshot  
+- **£250** — Full System Review (most common)  
+- **£500+** — Deep Architecture + AI Scaling Plan  
+
+---
+
+## 🎯 What this is NOT
+
+This is not:
+
+- generic code review
+- performance optimisation service
+- vague “best practices” consulting
+
+This is a **structural audit of how your system behaves under real growth conditions**.
+
+---
+
+## 🧩 Why this matters
 
 Most systems don’t break because of bugs.
 
-They break because of:
-> structure, duplication, and unclear boundaries between code and AI behaviour.
+They break because:
+> architecture decisions that worked at small scale stop working as complexity grows.
+
+---
+
+## 📩 Get a review
+
+If you want a second engineering opinion on your system:
+
+- Open an issue
+- Or contact me directly
+- Or link booking form here
