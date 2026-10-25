@@ -36,4 +36,8 @@ I'm curious about systems thinking, psychology, and human behaviour, especially 
 
 ## 📝 Notes
 
-I share practical notes and examples as I build and learn. Follow along or open an issue if you'd like to chat.
+I share practical notes and examples as I build and learn.
+
+<a href="https://dev.to/vladimirivanov">
+  <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="dev.to" />
+</a>
